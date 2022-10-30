@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Page not Found - Baqar Zaidi</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+
+    <!-- icon set -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="./index.html">baqar.zaidi</a>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <a href="#about">about</a>
+                        <a href="#projects">projects</a>
+                        <a href="#contact">contact</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <a href="https://www.linkedin.com/in/baqarz/" target="_blank" rel="noopener noreferrer">linkedin</a>
+                    <a href="https://www.upwork.com/freelancers/~01f79eb1de59397ea4" target="_blank" rel="noopener noreferrer">upwork</a>
+                </nav>
+            </div>
+            <div class="mobile-nav" onclick="mobileNavigation()">
+                <i class="las la-bars"></i>
+            </div>
+            <div class="mobile" id="mobile" style="display: none;">
+                <div class="cross" onclick="mobileNavigation()">
+                    <i class="las la-times"></i>
+                </div>
+                <div class="logo">
+                    <a href="./index.html">baqar.zaidi</a>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <hr>
+                        <a href="#about">about</a>
+                        <a href="#projects">projects</a>
+                        <a href="#contact">contact</a>
+                        <hr>
+                        <a href="https://www.linkedin.com/in/baqarz/" target="_blank" rel="noopener noreferrer">linkedin</a>
+                        <a href="https://www.upwork.com/freelancers/~01f79eb1de59397ea4" target="_blank" rel="noopener noreferrer">upwork</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero area -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-left">
+                <h1>The following webpage is not available</h1>
+                <h5>Go back to home page to see my testimonials and projects.<br>
+                Contact me for your website.</h5>
+                <nav class="hero-nav">
+                    <a href="/index.html" class="hero-btn">Go Back to Homepage</a>
+                    <a href="/index.html/#contact" class="hero-btn">Contact me</a>
+                </nav>
+            </div>
+            <div class="hero-right image">
+                <img src="images/hero-image.png" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!-- mobile-nav -->
+        <script>
+            function mobileNavigation() {
+                var x = document.getElementById("mobile");
+                if (x.style.display === "none") {
+                    x.style.display = "flex";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+
+        <!-- animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+</body>
